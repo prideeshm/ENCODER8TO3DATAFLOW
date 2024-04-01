@@ -1,4 +1,6 @@
-![image](https://github.com/prideeshm/ENCODER8TO3DATAFLOW/assets/144870483/8e8dca90-cc05-491b-8699-23b5a80c7d2a)### ENCODER 8TO3 DATAFLOW Modelling
+## Name:Prideesh M
+## Reg no:212223040154
+### ENCODER 8TO3 DATAFLOW Modelling
 
 **AIM:**
 
