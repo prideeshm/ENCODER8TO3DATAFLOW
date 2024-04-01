@@ -48,10 +48,11 @@ Figure 02  Encoder 8 * 3
 module EXP05(din, a, b, c); 
 input [0:7] din; 
 output a,b,c; 
-assign a=din[4] | din[5] | din[6] | din[7]; 
-assign b=din[2] | din[3] | din[6] | din[7];
-assign c=din[2] | din[4] | din[6] | din[7];
+assign a= (din[4] | din[5] | din[6] | din[7]); 
+assign b= (din[2] | din[3] | din[6] | din[7]);
+assign c= (din[1] | din[3] | din[5] | din[7]);
 endmodule
+
 
 
 ```
@@ -65,7 +66,7 @@ Developed by:Prideesh M  RegisterNumber:212223040154
 
 **TIMING DIGRAMS FOR Encoder 8 To 3 in Dataflow Modelling**
 
-![image](https://github.com/prideeshm/ENCODER8TO3DATAFLOW/assets/144870483/58ddc90d-5fc7-4104-b9ce-581d9c96b66f)
+![Screenshot 2024-04-01 094840](https://github.com/prideeshm/ENCODER8TO3DATAFLOW/assets/144870483/9a06c4c4-347a-4aa7-8f5c-8ae5a5fe03a6)
 
 
 **RESULTS**
